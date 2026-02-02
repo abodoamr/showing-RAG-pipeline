@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  rag-app:
+    build: .
+    container_name: rag_app
+    volumes:
+      - .:/app
+    # Uncomment and set if you want to run a web server and expose a port
+    # ports:
+    #   - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+    # Command can be overridden here if needed
+    # command: ["python", "RR.py"]

@@ -1,0 +1,7 @@
+langchain-core==0.1.44
+langchain-ollama==0.0.9
+langchain-chroma==0.0.7
+langchain-community==0.0.29
+langchain-text-splitters==0.0.1
+chromadb==0.4.24
+ollama==0.1.4
